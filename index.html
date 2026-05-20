@@ -8,7 +8,7 @@
     <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style> <!--loading Google Fonts-->
     <title>Dwello</title>
 </head>
-<body class="p-8 pr-16 pl-12">
+<body class="p-8 pr-28 pl-28">
     <nav class="flex justify-between items-center gap-x-2">
         <img src="Images/logo.svg" alt="Logo">
 
@@ -19,15 +19,23 @@
             <li>Contact</li>
         </ul>
 
-        <div class="list-none flex gap-x-12 items-center font-bold font">
+        <div class="list-none flex gap-x-12 items-center font-bold">
             <span class="material-symbols-outlined">search</span>
             <span class="material-symbols-outlined">person</span>
             <button type="button" class="px-8 py-3 bg-gray-950 text-white rounded-md hover:bg-black-700 cursor-pointer">Sign Up</button>
+        </div> 
     </nav>
-    <!-- <main>
-        <h1>Find Your<br>Dream Home!</h1>
-        <p>Explore our curated selection of exquisite <br> properties meticulously tailored to your <br> unique dream home vision</p>
-        <button type="button" class="px-8 py-3 bg-gray-950 text-white rounded-md hover:bg-black-700 cursor-pointer">Sign Up</button>
-    </main> -->
+    <main>
+        <div class="hero pt-32 flex justify-around">
+            <div class="hero-left flex flex-col justify-start gap-y-12">
+                <h1 class="font-extrabold text-7xl min-w-110 leading-tight">Find Your Dream Home</h1>
+                <p class="font-bold">Explore our curated selection of exquisite <br> properties meticulously tailored to your <br> unique dream home vision</p>
+                <button type="button" class="px-8 py-3 bg-gray-950 text-white rounded-md hover:bg-black-700 cursor-pointer self-start">Sign Up</button>
+            </div>
+
+            <img class="hero-right -mt-10 -mr-40 w-4xl h-auto" src="/Images/hero-image.png" alt="Penthouse image">
+        </div>
+        
+    </main>
 </body>
 </html>
